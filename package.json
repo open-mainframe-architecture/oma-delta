@@ -1,0 +1,22 @@
+{
+  "name": "oma-delta",
+  "description": "Archive with modules for delta synchronization of session models.",
+  "main": "directory",
+  "version": "1.4.0",
+  "keywords": [
+    "JavaScript",
+    "class scripts",
+    "delta session",
+    "model synchronization",
+    "immutable values"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-mainframe-architecture/oma-delta.git"
+  },
+  "author": "open.mainframe@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-mainframe-architecture/oma-delta/issues"
+  }
+}
