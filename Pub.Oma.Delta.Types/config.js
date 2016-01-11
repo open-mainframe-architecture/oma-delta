@@ -1,7 +1,7 @@
 function configure(module) {
   "use strict";
   module.description = 'This module defines data types for delta synchronization.';
-  module.datatype = {
+  module.datatypes = {
     Delta: {
       // a delta message transitions a session model to the next state
       Message: {
@@ -67,8 +67,6 @@ function configure(module) {
         serverLease: 'number',
         maximumDelay: 'Maybe("pause"_"flush")',
         impatience: 'number?',
-        plumbing: 'Flag',
-        caching: 'Flag',
         download: '<Delta.Access> @event=server',
         approve: '<Delta.Authorization> @event=client'
       }

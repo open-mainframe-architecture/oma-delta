@@ -1,7 +1,7 @@
 {
   "name": "oma-delta",
   "description": "Archive with modules for delta synchronization of session models.",
-  "main": "directory",
+  "main": "index",
   "version": "1.4.1",
   "keywords": [
     "JavaScript",
