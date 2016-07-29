@@ -26,8 +26,8 @@ function configure(module) {
     },
     'Delta.Splice': {
       $super: 'Delta.Action',
-      deletes: 'integer',
-      values: '[Any]?'
+      deletes: 'integer?',
+      values: 'Maybe([Any])'
     },
     'Delta.Remove': {
       $super: 'Delta.Action',
