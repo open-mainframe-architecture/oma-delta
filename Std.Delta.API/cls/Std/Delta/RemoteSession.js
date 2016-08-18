@@ -9,7 +9,7 @@
     plumb: I.remotely('=> string', I.burdenSubclass),
     poll: I.remotely('=> Delta.Status', I.burdenSubclass),
     ready: I.remotely('=> number', I.burdenSubclass),
-    realloc: I.remotely('<Delta.File> =>', I.burdenSubclass),
+    realloc: I.remotely('<Delta.File> => number', I.burdenSubclass),
     typespace: I.remotely('=> <string>', I.burdenSubclass)
   });
 })
